@@ -1,0 +1,22 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Jeo Deo",
+      "city": "London",
+      "phone": "+44 778 666 999"
+    },
+    {
+      "id": 2,
+      "name": "Mery Best",
+      "city": "Paris",
+      "phone": "+22 078 996 000"
+    },
+    {
+      "id": 2,
+      "name": "Spenser Smith",
+      "city": "Paris",
+      "phone": "+22 078 996 000"
+    }
+  ]
+}

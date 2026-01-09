@@ -1,0 +1,121 @@
+/* google font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  font-family: "Roboto", "sans-serif";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primary: #3d4ee8;
+  --secondary: #7984e4;
+  --bg: #131842;
+  --white: #f1ecec;
+  --black: #2c2a2a;
+  --borderRadius: 0.5rem;
+  --boxShadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  --border: solid 1px #e4e2e2;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--white);
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: var(--white);
+  border-radius: var(--borderRadius);
+  padding: 1.5rem;
+  box-shadow: var(--boxShadow);
+  margin-top: 2rem;
+  color: var(--primary);
+  border-top: var(--border);
+
+  h2 {
+    color: var(--primary);
+    text-align: center;
+    margin-bottom: 1.25rem;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  /* ==== TABLE STYLING=== */
+  .table-container {
+    margin-top: 1.5rem;
+  }
+  table {
+    width: 100%;
+    text-align: left;
+    background-color: var(--white);
+    overflow: hidden;
+    box-shadow: var(--boxShadow);
+    border-radius: var(--borderRadius);
+  }
+  th,
+  td {
+    padding: 1rem 1.5rem;
+    text-align: left;
+    border-bottom: var(--border);
+  }
+  td {
+    color: var(--black);
+  }
+
+  th {
+    background-color: var(--primary);
+    color: var(--white);
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  tr:nth-child(even) {
+    background-color: #7984e4;
+  }
+  tr:hover {
+    background-color: #a6ace5;
+  }
+  .error-msg {
+    color: #e6375a;
+    margin-bottom: 1rem;
+  }
+
+  /* ===BUTTON STYLING==== */
+  .btn {
+    display: inline-block;
+    padding: 0.625rem 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: var(--borderRadius);
+    text-decoration: none;
+    color: var(--white);
+    font-size: 1rem;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-right: 1rem;
+  }
+  .btn-primary {
+    background-color: var(--primary);
+  }
+  .btn-danger {
+    background-color: #e6375a;
+  }
+  .btn-info {
+    background-color: #33bee8;
+  }
+  .btn:hover {
+    transform: translateY(-2px);
+  }
+  .btn-add {
+    background-color: #0ba20b;
+    margin-bottom: 2rem;
+  }
+
+  /* ===BUTTON STYLING==== */
+  form {
+  }
+}
