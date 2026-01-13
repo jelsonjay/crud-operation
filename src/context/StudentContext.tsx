@@ -1,7 +1,7 @@
 import { createContext } from "react";
 
 type StudentContextType = {
-  student: boolean;
+  student: string;
   setStudent: React.Dispatch<React.SetStateAction<string | number>>;
 };
 
